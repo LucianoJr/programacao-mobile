@@ -1,4 +1,4 @@
-# :books: Programação para Dispositivos Móveis
+# :books: Desenvolvimento para Dispositivos Móveis
 
 ## :closed_book: Plano de aulas
 
@@ -17,6 +17,11 @@
 
 - 1o. Bimestre: 24/04/18
 - 2o. Bimestre: 19/06/18
+
+## :computer: Ambiente de Desenvolvimento
+
+- [Android Studio: Instalação](https://developer.android.com/studio/index.html)
+- [Android Studio: Guia do usuário](https://developer.android.com/studio/intro/index.html)
 
 ## :orange_book: Bibliografia
 
