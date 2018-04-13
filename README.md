@@ -23,6 +23,10 @@
 - [Android Studio: Instalação](https://developer.android.com/studio/index.html)
 - [Android Studio: Guia do usuário](https://developer.android.com/studio/intro/index.html)
 
+- [Material Design: Cores](https://material.io/guidelines/style/color.html#)
+
+- [Android: Resolução de Tela](https://developer.android.com/training/multiscreen/screendensities.html)
+
 ## :orange_book: Bibliografia
 
 - DEITEL, Harvey M. **Android como programar**. 2 ed. Porto Alegre Bookman, 2015.
