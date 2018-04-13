@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO ARQUIVO DE LAYOUT DEVE ESTAR ENVOLTO NUM TIPO LAYOUT:
+        - LinearLayout
+        - RelativeLayout
+        - ConstraintLayout
+        - FrameLayout
+        - ..
+-->
+<!-- xmlns: Define o namespace - onde o android deve buscar os componentes
+        android: componentes padroes do android
+        app: componentes de aplicacao
+        tools: usado para visualizacao no modo design
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
+
+</LinearLayout>
