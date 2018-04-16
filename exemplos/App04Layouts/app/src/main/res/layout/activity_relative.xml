@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <!--
+        - Centraliza o componente em relacao ao pai
+        centerInVertical
+        centerInHorizontal
+        centerInParent
+        -->
+
+    <TextView
+        android:background="@color/colorAccent"
+        android:text="Oi"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+   <TextView
+        android:background="#00AA00"
+        android:text="Oi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/txt_pergunta"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:text="Você deseja clicar? "
+        android:layout_margin="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_clique"
+        android:text="Clique-me"
+        android:layout_toEndOf="@id/txt_pergunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_clique2"
+        android:text="Clique-me 2"
+        android:layout_below="@id/btn_clique"
+        android:layout_alignStart="@+id/btn_clique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
