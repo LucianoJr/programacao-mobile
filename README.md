@@ -18,7 +18,7 @@
 - 1o. Bimestre: 24/04/18
 - 2o. Bimestre: 19/06/18
 
-## :computer: Ambiente de Desenvolvimento
+## :computer: Desenvolvimento Android
 
 - [Android Studio: Instalação](https://developer.android.com/studio/index.html)
 - [Android Studio: Guia do usuário](https://developer.android.com/studio/intro/index.html)
@@ -26,6 +26,12 @@
 - [Material Design: Cores](https://material.io/guidelines/style/color.html#)
 
 - [Android: Resolução de Tela](https://developer.android.com/training/multiscreen/screendensities.html)
+
+## :computer: Outros
+
+- (Lean Canvas)[https://leanstack.com/leancanvas)
+
+
 
 ## :orange_book: Bibliografia
 
@@ -35,3 +41,4 @@
 - LEE, Valentino; Schneider, Heather; Schell, Robbie. **Aplicações Móveis: arquitetura, projetos e desenvolvimento**. Pearson. 
 - SINTES, Anthony. Aprenda Programação Orientada a Objetos em 21 dias. Pearson.
 - HORSTMANN, Cay S.; Cornell, Gary. Core Java - 8ª edição - Vol. 1. Pearson.
+
