@@ -29,7 +29,7 @@
 
 ## :computer: Outros
 
-- (Lean Canvas)[https://leanstack.com/leancanvas)
+- [Lean Canvas](https://leanstack.com/leancanvas)
 
 
 
