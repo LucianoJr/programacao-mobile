@@ -31,6 +31,10 @@
 
 - [Lean Canvas](https://leanstack.com/leancanvas)
 
+- [Git guia prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+- [Git em 15 min](https://try.github.io/levels/1/challenges/1)
+- [Git download](https://git-scm.com/downloads)
+- [Git comandos](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
 
 ## :orange_book: Bibliografia
