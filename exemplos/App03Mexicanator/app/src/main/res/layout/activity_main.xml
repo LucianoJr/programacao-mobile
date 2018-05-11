@@ -13,15 +13,56 @@
 -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ScrollView android:layout_width="" android:layout_height="">
+
+    </ScrollView>
+
+    <!-- Componente para imagens -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_huge"
+        android:contentDescription="@string/descr_logo"
+        android:src="@drawable/logo"/>
+
+    <!-- CTRL + ALT + L : Organiza o codigo -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- ALT + ENTER: Extract to string resource -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_texto"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/label_texto"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_traduzir"/>
+
+    <TextView
+        tools:text="Texto de saida!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>
