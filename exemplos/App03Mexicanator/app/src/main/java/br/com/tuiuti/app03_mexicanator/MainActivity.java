@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_alternativo);
 
         // Esta funcao retorna a view associada a um ID
         // - No onCreate extraimos as views do layout para facilitar a manipulacao
@@ -48,6 +48,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (view.getId() == R.id.main_btn_traduzir) {
             String texto = mEdtEntrada.getText().toString();
             Log.d(TAG, "onClick: texto = " + texto);
+
+            if (texto.trim().isEmpty()) {
+                mEdtEntrada.setError("Campo obrigatório");
+                mEdtEntrada.requestFocus();
+                return;
+            }
+
 
             texto = texto.toLowerCase();
             texto = texto.replaceAll("\\bo\\b", "lo");

@@ -4,7 +4,7 @@
     <string name="app_name">Mexicanator</string>
 
     <string name="descr_logo">Logo do Mexicanator</string>
-    <string name="label_texto">Texto</string>
+    <string name="label_texto">Digite o texto</string>
     <string name="button_traduzir">Traduzir!</string>
 
 
