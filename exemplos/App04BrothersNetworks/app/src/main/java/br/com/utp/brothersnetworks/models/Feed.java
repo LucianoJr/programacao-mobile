@@ -6,6 +6,12 @@ public class Feed {
     private String mEmail = "";
     private String mFotoUrl = "";
 
+    public Feed(final String nome, final String email, final String fotoUrl) {
+        mNome = nome;
+        mEmail = email;
+        mFotoUrl = fotoUrl;
+    }
+
     public String getNome() {
         return mNome;
     }
