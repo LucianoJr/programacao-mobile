@@ -56,23 +56,30 @@
 - 1o. Bimestre: 26/09/18
 - 2o. Bimestre: 28/11/18
 
-## :computer: Desenvolvimento Android
+## :computer: Recursos
+
+- [Telegram](https://t.me/joinchat/CFsBrhBb2ft1B6fiFlMehg)
+
+### Android Studio
 
 - [Android Studio: Instalação](https://developer.android.com/studio/index.html)
 - [Android Studio: Guia do usuário](https://developer.android.com/studio/intro/index.html)
 
-- [Material Design: Cores](https://material.io/guidelines/style/color.html#)
+### Android
 
+- [Material Design: Cores](https://material.io/guidelines/style/color.html#)
 - [Android: Resolução de Tela](https://developer.android.com/training/multiscreen/screendensities.html)
 
-## :computer: Outros
-
-- [Lean Canvas](https://leanstack.com/leancanvas)
+### Git
 
 - [Git guia prático](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
 - [Git em 15 min](https://try.github.io/levels/1/challenges/1)
 - [Git download](https://git-scm.com/downloads)
 - [Git comandos](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+
+### Outros
+
+- [Lean Canvas](https://leanstack.com/leancanvas)
 
 
 ## :orange_book: Bibliografia
